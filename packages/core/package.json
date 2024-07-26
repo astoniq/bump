@@ -1,0 +1,25 @@
+{
+  "name": "@astoniq/bump-core",
+  "version": "0.1.0",
+  "description": "Node API for using bump.",
+  "main": "build/bump.js",
+  "license": "MIT",
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "tapable": "^2.2.0",
+    "unconfig": "^0.4.5",
+    "signale": "^1.4.0",
+    "zod": "^3.23.0",
+    "import-from-esm": "^1.3.0",
+    "semver": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/signale": "^1.2.1",
+    "@types/semver": "^7.0.0"
+  }
+}
